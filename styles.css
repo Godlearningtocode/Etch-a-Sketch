@@ -1,0 +1,48 @@
+body {
+    background-color: #ededed;
+}
+
+.screen {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.header {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    justify-content: center;
+    margin: 40px;
+    text-decoration: #333;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 8px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.reset {
+    padding: 8px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px 5px rgb(169,169,169);
+}
+
+.board div {
+    display: inline-block;
+    text-align: center;
+    background-color: #fefefe;
+}
